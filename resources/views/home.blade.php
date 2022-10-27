@@ -306,6 +306,7 @@
             });
         });
 
+        // options data operations
         $(document).on('click', '.addOrUpdateOption', function () {
             var id = $(this).data('id');
             var mode = $(this).data('mode');
